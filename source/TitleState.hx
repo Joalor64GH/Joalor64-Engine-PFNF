@@ -583,11 +583,11 @@ class TitleState extends MusicBeatState
 			switch (sickBeats)
 			{
 				case 1:
-					createCoolText(['ProjectFNF by'], 45);
+					createCoolText(['Created by'], 45);
 				// credTextShit.visible = true;
 				case 3:
-					addMoreText('l1ttleO', 45);
-					addMoreText('aflacc', 45);
+					addMoreText('Joalor64 Yt', 45);
+					addMoreText('Bot 404', 45);
 				// credTextShit.text += '\npresent...';
 				// credTextShit.addText();
 				case 4:
@@ -596,9 +596,9 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = 'In association \nwith';
 				// credTextShit.screenCenter();
 				case 5:
-					createCoolText(['Not associated with'], -60);
+					createCoolText(['Powered with'], -60);
 				case 7:
-					addMoreText('Newgrounds', -60);
+					addMoreText('Project FNF', -60);
 					ngSpr.visible = true;
 				// credTextShit.text += '\nNewgrounds';
 				case 8:
@@ -620,13 +620,13 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
 				case 13:
-					addMoreText('Friday');
+					addMoreText('Friday Night Funkin');
 				// credTextShit.visible = true;
 				case 14:
-					addMoreText('Night');
+					addMoreText('Joalor64 Engine');
 				// credTextShit.text += '\nNight';
 				case 15:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText('Project FNF Port'); // credTextShit.text += '\nFunkin';
 
 				case 16:
 					skipIntro();
