@@ -74,7 +74,7 @@ class PlayState extends MusicBeatState
 		['B', 0.8], //From 70% to 79%
 		['A', 0.9], //From 80% to 89%
 		['S', 1], //From 90% to 99%
-		['SS', 1] //The value on this one isn't used actually, since Perfect is always "1"
+		['X', 1] //The value on this one isn't used actually, since Perfect is always "1"
 	];
 
 	public var modchartTweens:Map<String, FlxTween> = new Map<String, FlxTween>();
@@ -1072,13 +1072,13 @@ class PlayState extends MusicBeatState
 		add(scoreTxt);
 
 		versionTxt = new FlxText(0, FlxG.height - 24, 0, SONG.song + " - " +
-			CoolUtil.difficultyString() + " | ProjectFNF " +
+			CoolUtil.difficultyString() + " | Joalor64 Engine " +
 			MainMenuState.projectFnfVersion, 16);
 		versionTxt.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		versionTxt.scrollFactor.set();
 		add(versionTxt);
 
-		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "BOTPLAY", 32);
+		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "SKILL ISSUE", 32);
 		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		botplayTxt.scrollFactor.set();
 		botplayTxt.borderSize = 1.25;
@@ -2372,10 +2372,10 @@ class PlayState extends MusicBeatState
 				pressMisses = this.pressMisses;
 			} else
 				pressMissesTxt = ' (' + (songMisses + this.pressMisses) + ')';
-			thScoreHealthTxt = ' (' + (totalPlayed - pressMisses) * 350 + ') | Health: ' + FlxMath.roundDecimal(healthPercentageDisplay, 0) + '%';
+			thScoreHealthTxt = ' (' + (totalPlayed - pressMisses) * 350 + ') | HP: ' + FlxMath.roundDecimal(healthPercentageDisplay, 0) + '%';
 			accuracyTxt = ' | Accuracy: ' + accuracyPercentage + '%';
 		}
-		scoreTxt.text = 'Score: ' + songScore + thScoreHealthTxt + ' | Misses: ' + songMisses + pressMissesTxt + accuracyTxt + ' | Rating: ' + ratingFC + ratingName + suffix;
+		scoreTxt.text = 'Score: ' + songScore + thScoreHealthTxt + ' | Combo Breaks: ' + songMisses + pressMissesTxt + accuracyTxt + ' | Rank: ' + ratingFC + ratingName + suffix;
 
 		if(botplayTxt.visible) {
 			botplaySine += 180 * elapsed;
