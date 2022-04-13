@@ -1,5 +1,5 @@
 # Joalor64 Engine: PFNF Version
-* My custom version of Project FNF but with some changes lol.
+* My custom version of ProjectFNF but with some changes lol.
 * [Psych Engine Version](https://github.com/Joalor64GH/Joalor64-Engine)
 
 # Features
