@@ -3,6 +3,7 @@
 * [Psych Engine Version](https://github.com/Joalor64GH/Joalor64-Engine)
 
 # Features
+* Credits. (Note: If you make a mod, you can edit the credits in mods/data, but ONLY if you keep the J64E credits.)
 * Extra modding support.
 * Cool scripts that do things.
 * Space to V-pose, Secret Keys, Ratings during Gameplay, Cool Icon Bopping and Rank Screen!
@@ -11,6 +12,10 @@
 * After that, just press space to go back to the menu.
 * Still tryna figure out how to make the freeplay and pause menu move in a disc-like motion similar to dnb lol.
 * Hope you enjoy!
+
+# Credits
+[Joalor64 YT](https://www.youtube.com/channel/UC4tRMRL_iAHX5n1qQpHibfg/featured)
+[Bot 404](https://www.youtube.com/channel/UC9ntkZ4Nz3AVKrAnderJnOg)
 
 # Friday Night Funkin' - ProjectFNF
 ProjectFNF 2.0, based on Psych Engine.
