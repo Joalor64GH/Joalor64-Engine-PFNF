@@ -14,8 +14,8 @@
 * Hope you enjoy!
 
 # Credits
-[Joalor64 YT](https://www.youtube.com/channel/UC4tRMRL_iAHX5n1qQpHibfg/featured)
-[Bot 404](https://www.youtube.com/channel/UC9ntkZ4Nz3AVKrAnderJnOg)
+* [Joalor64 YT](https://www.youtube.com/channel/UC4tRMRL_iAHX5n1qQpHibfg/featured) - Main Programmer
+* [Bot 404](https://www.youtube.com/channel/UC9ntkZ4Nz3AVKrAnderJnOg) - Little Helper
 
 # Friday Night Funkin' - ProjectFNF
 ProjectFNF 2.0, based on Psych Engine.
