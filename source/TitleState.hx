@@ -626,7 +626,7 @@ class TitleState extends MusicBeatState
 					addMoreText('Joalor64 Engine');
 				// credTextShit.text += '\nNight';
 				case 15:
-					addMoreText('Project FNF Port'); // credTextShit.text += '\nFunkin';
+					addMoreText('Project FNF Version'); // credTextShit.text += '\nFunkin';
 
 				case 16:
 					skipIntro();
