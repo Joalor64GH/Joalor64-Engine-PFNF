@@ -3,6 +3,7 @@
 * [Psych Engine Version](https://github.com/Joalor64GH/Joalor64-Engine)
 
 # Features
+* Extra modding support.
 * Cool scripts that do things.
 * Space to V-pose, Secret Keys, Ratings during Gameplay, Cool Icon Bopping and Rank Screen!
 * The ratings will appear in the top left corner while you're playing.
